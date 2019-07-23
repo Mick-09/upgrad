@@ -1,0 +1,31 @@
+body{
+   background: url('background.jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center center;
+   background-size: cover;
+   margin: 0 !important;
+   background-size: 100% cover!important;
+   overflow:hidden;
+   display: block;
+} 
+
+
+.postButtons{
+  position: relative;
+  margin: 15%;
+  top: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   justify-content: center;
+}
+
+.postButtons button{
+  padding: 10px 35px 10px 35px;
+   margin-left: 25px;
+   background-color: yellow;
+}
+
+/* Set a style for the rest of the elements besides the header elements on the index.html page */
+                                 
